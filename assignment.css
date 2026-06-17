@@ -1,0 +1,105 @@
+body{
+    background:#e1b8c7;
+
+    font-family:italic;
+    
+}
+
+header{
+    background:#8d497c;
+    height: 78px;
+    text-align:center;
+    border-radius: 50px;
+    color: rgb(245, 163, 10);
+   
+   
+
+}
+main h1{
+    background-image: url("j.jpeg");
+    background-repeat:no-repeat;
+    background-clip: border-box;
+    background-size: cover;
+    background-origin: padding-box;
+    padding: 50px;
+    margin: 4px;
+    color: rgb(255, 247, 0);
+}
+
+.h1{
+    border: 5px dashed rgb(102, 20, 112); 
+     margin-bottom: 15px;
+    width: 690px;
+    border-radius: 15px;
+   }
+
+#ring{
+    width:904px;
+    margin:14px auto;
+    background:#b35d9d;
+    border-radius: 20px;
+}
+
+
+#content{
+    display:flex;
+}
+.p{
+    color:rgb(0, 0, 0)
+}
+.gold{ clear: both;
+    color: rgb(67, 5, 46);
+    font-size: 20px;
+    border-bottom: 2px solid rgb(88, 7, 66); 
+    border-radius: 3px;
+    box-shadow: 5px 5px 5px rgb(255, 2, 192);
+}
+#nav{
+    width:130px;
+    background-color:rgb(120, 25, 110);
+    padding:35px 25px;
+    border-radius: 20px;
+
+}
+
+
+
+nav ul{
+    list-style:none;
+    
+}
+
+nav ul li{
+    margin-bottom:10px;
+}
+nav a:hover{
+    color: rgb(46, 239, 24);
+    background-color: rgb(26, 185, 213);}
+nav a:active{
+    color: rosybrown;
+
+}
+nav ul li a{
+    text-decoration:none;
+    color:rgb(241, 9, 214);
+    font-size:18px;
+}
+
+div img{width: 130px; height: 130px; float: left; margin-right: 3px; margin-bottom: 27px;}
+main{
+    flex:1;
+    padding:22px 16px;
+}
+
+
+footer{
+    background:#9f2978;
+    color:rgb(252, 121, 204);
+    padding:8px;
+    border-top:3px solid #460430;
+    border-bottom:3px solid #3a0427;
+    box-shadow: #e1b8c7;
+    border-radius: 10px;
+    font-style: inherit;
+    text-align:right;
+} 
